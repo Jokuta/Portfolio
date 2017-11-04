@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8"> 
+<title>Lolo-folio</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="vendor/modernizr.custom.85830.js"></script>
+<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<div class="container">
+	<header>
+		<img src="img/gugu.jpg" alt="Portfolio image">
+		<div class="text">
+			<h1>Jovana Babic</h1>
+			<h2>Front End Web Developer</h2>
+		</div>
+	</header>
+<section class="intro">
+	<p>
+		Hey, I’m an independent web developer from Zrenjanin, Srbija. I work primarily with Front End Web technologies.
+
+<br>Have a look through some of my projects and details about my education and skills. Need help with an upcoming project or application? Learn a bit more about me and then consider hiring me.
+	</p>
+</section>
+
+<section class="buttons" class="container">
+	<div class="buttons" id="firstbutton"><a href="#projects"><p>Projects</p>
+		<i class="fa fa-chevron-down"></i></a>
+	</div>
+	
+
+	<div class="buttons" id="secondbutton"><a href="#about"><p>About</p>
+		<i class="fa fa-chevron-down"></i></a>
+		</div>
+	<div class="buttons" id="thirdbutton"><a href="#contact"><p>Contact me</p>
+	<i class="fa fa-chevron-down"></i></a>
+	</div>
+	</section>
+</div>
+<section id="projects">
+		<div class="project">
+			<a href="#"><img src="img/klub128.png" alt="project-image"></a>
+			<div class="view-project"><p class="description">Child theme, editing and adaption of a Wordpress theme.
+					Html, Css, Wordpress</p>
+					<a href="http://www.klub128.rs/"><p>View project <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
+				
+			</div>
+		</div>
+		
+
+		<div class="project">
+			<a href="#"><img src="img/portfolio.png" alt="project-image"></a>
+			<div class="view-project"><p class="description">Design, Html5, Css3, Sass, jQuery, Responsive Web Design  
+				</p>
+				<a href=""><p>View project <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
+				
+		</div>
+		</div>
+		
+
+		<div class="project">
+			<a href="#"><img src="img/negaprirodom.png" alt="project-image"></a>
+			<div class="view-project"><p class="description"> Design, Html5, Css3, Bootstrap, jQuery 
+				</p>
+				<a href="http://www.snezana_sapuni.surge.sh/"><p>View project <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>
+				
+		</div>
+		</div>
+		
+		<div class="project">
+			<a href="#"><img src="img/nicolette.png" alt="project-image"></a>
+			<div class="view-project"><p class="description">Child theme, editing and adaption of a Wordpress theme.
+					Html, Css, Wordpress
+				</p>
+				<a href="http://www.nicolettesmilde.nl/"><p>View project <i class="fa fa-chevron-right" aria-hidden="true"></i></p></a>				
+		</div>
+		</div>
+		
+	</section>
+	<div class="border" id="about">
+		<section class="about">
+			<h3>Education:</h3> 
+			<p>Engineer of IT, Technical faculty "Mihajlo Pupin" </p>
+			<h3>Skills:</h3> 
+			<p>Html5, CSS3, jQuery, Sass, Git, Wordpress, Responsive Web Design</p> 
+			<h3>What I’ve been up to lately:</h3>
+			<ul>
+				<li><p>Design and code of this portfolio. Technologies: Html5, Css3, Sass, jQuery</p></li>
+				<li><p>Finishing my final exam on faculty. My final exam is about a website that I have designed and coded with Bootstrap framework. Link: <a href="http://www.snezana_sapuni.surge.sh/">click</a></p></li>
+			</ul>
+
+		</section>
+	</div>
+
+	<footer id="contact">
+		
+
+		<ul class="contact">
+			<li>Contact me:</li>
+			<li>Email: jovanababic26@gmail.com</li>
+			<li>Mob: +381693107600</li>
+			
+		</ul>
+
+		<ul class="nav">
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact me</a></li>
+		</ul>
+
+		<p>&#xA9; Jovana Babic 2017</p>
+	</footer>
+
+		<script>
+		$("#firstbutton").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#projects").offset().top
+		    }, 2000);
+			});
+
+		$("#secondbutton").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#about").offset().top
+		    }, 2000);
+			});
+
+		$("#thirdbutton").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#contact").offset().top
+		    }, 2000);
+			});
+		</script>
+
+
+</body>
+</html>
+

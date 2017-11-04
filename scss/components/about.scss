@@ -1,0 +1,60 @@
+.border{
+	margin: 0 auto 200px auto;
+	width:100%;
+	max-width:1000px;
+.about{
+		border-top: 5px solid $tirk;
+		padding: 0 20px;
+	h3{
+		margin: 30px 0 10px 0;
+	}
+	ul{
+		margin-left: 30px;
+		list-style: circle;
+		max-width: 1000px;
+		width: 100%;
+		li{
+			padding: 10px 0 0 10px;
+			p{
+				line-height: 120%;
+			}
+		}
+	}
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+    .border{
+.about{
+		
+	ul{
+		margin-left: 10px;
+		
+	}
+	
+}
+}
+    }
+
+@media only screen and (max-width: 360px) {
+
+    .border{
+.about{
+		
+	h3{
+		font-size: 18px;
+	}
+	ul{
+		margin-left: 10px;
+		li{
+			padding: 0 0 0 10px;
+			p{
+				font-size: 18px;
+			}
+		}
+	}
+	
+}
+}
+    }
